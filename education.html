@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education | CV Cristi</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="scripts.js" defer></script>
+</head>
+<body class="bg-gradient-to-br from-indigo-50 to-blue-100">
+    <div id="vanta-bg" class="fixed inset-0 z-0"></div>
+    
+    <nav class="relative z-10 bg-white/80 backdrop-blur-md shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold text-indigo-600">CV Cristi</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-indigo-600 transition">Home</a>
+                    <a href="experience.html" class="text-gray-600 hover:text-indigo-600 transition">Experience</a>
+                    <a href="education.html" class="text-indigo-600 font-medium hover:text-indigo-800 transition">Education</a>
+                    <a href="skills.html" class="text-gray-600 hover:text-indigo-600 transition">Skills</a>
+                  <!--  <a href="contact.html" class="text-gray-600 hover:text-indigo-600 transition">Contact</a> -->
+                </div>
+                <button id="mobile-menu-button" class="md:hidden text-gray-600 hover:text-indigo-600">
+                    <i data-feather="menu"></i>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white/90 backdrop-blur-md">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="index.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-indigo-600">Home</a>
+                <a href="experience.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-indigo-600">Experience</a>
+                <a href="education.html" class="block px-3 py-2 rounded-md text-base font-medium text-indigo-600">Education</a>
+                <a href="skills.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-indigo-600">Skills</a>
+             <!--   <a href="contact.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-indigo-600">Contact</a> -->
+            </div>
+        </div>
+    </nav>
+
+    <main class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="bg-white/80 backdrop-blur-lg rounded-xl shadow-xl overflow-hidden p-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-8">Formación académica</h1>
+            
+            <div class="space-y-8">
+                <!-- Education Item 1 -->
+                <div class="fade-in opacity-0 transition-opacity duration-500">
+                    <div class="flex items-start">
+                        <div class="bg-green-100 p-3 rounded-lg mr-4">
+                            <i data-feather="award" class="text-green-600"></i>
+                        </div>
+                        <div class="flex-1">
+                            <div class="flex justify-between items-start flex-col md:flex-row">
+                                <h2 class="text-xl font-bold text-gray-800">CURSO SUPERIOR DE CIBERSEGURIDAD:</h2>
+                                <span class="text-green-600 font-medium">Junio 2022 - Agosto 2025 <br>
+                                    <span class="ml-2 text-gray-500 text-sm duracion-laboral" data-inicio="Junio 2022" data-fin="Agosto 2025"></span>
+                                </span>
+                            </div>
+                            <p class="text-gray-600 font-medium">Deusto Formación</p>
+                            <p class="text-gray-600 mt-2">Formación en el ámbito de la ciberseguridad desde fundamentos de la ciberseguridad hasta la introducción al hacking ético.</p>
+                            <ul class="mt-3 list-disc list-inside text-gray-600 space-y-1">
+                                <li>Principios básicos de la seguridad informática. </li>
+                                <li>Auditorias de seguridad. </li>
+                                <li>Informática forense, con Autopsy</li>
+                                <li>Seguridad en redes y sistemas.</li>
+                                <li>Introducción al hacking ético con Kali Linux.</li> 
+                                <li>Seguridad en aplicaciones web.</li>
+                                <li>Normativas y legislación en ciberseguridad.</li>
+                                <li>Simulaciones de ataques y defensa.</li>
+                                <li>Seguridad en servidores WEB: Instalación y gestión de Ubuntu Server y Apache como servidor WEB.</li>
+                                <li>Proyecto final de curso.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Education Item 2 -->
+                <div class="fade-in opacity-0 transition-opacity duration-500" style="transition-delay: 100ms">
+                    <div class="flex items-start">
+                        <div class="bg-blue-100 p-3 rounded-lg mr-4">
+                            <i data-feather="book" class="text-blue-600"></i>
+                        </div>
+                        <div class="flex-1">
+                            <div class="flex justify-between items-start flex-col md:flex-row">
+                                <h2 class="text-xl font-bold text-gray-800">Ciclo Formativo de Grado Medio</h2>
+                                <span class="text-blue-600 font-medium">Septiembre 2015 - Junio 2017
+                                    <br>
+                                    <span class="ml-2 text-gray-500 text-sm duracion-laboral" data-inicio="Septiembre 2015" data-fin="Junio 2017"></span>
+                                </span>
+                            </div>
+                            <p class="text-gray-600 font-medium">IES Palomeras Vallecas</p>
+                            <p class="text-gray-600 mt-2">Estudios medios de sistemas informáticos y redes.</p>
+                            <ul class="mt-3 list-disc list-inside text-gray-600 space-y-1">
+                                <li>Instalación de sistemas operativos. </li>
+                                <li>Utilización y gestión de Office. </li>
+                                <li>Montaje y mantenimiento de equipos informáticos.</li>
+                                <li>Administración de redes locales.</li>
+                                <li>Administracion de sistemas Linux.</li>
+                                <li>Seguridad informática.</li>
+                                <li>Inglés técnico.</li>
+                                <li>Desarrollo de aplicaciones web.</li>
+                                <li>Principios básicos de seguridad informática.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Education Item 3 -->
+                <div class="fade-in opacity-0 transition-opacity duration-500" style="transition-delay: 100ms">
+                    <div class="flex items-start">
+                        <div class="bg-blue-100 p-3 rounded-lg mr-4">
+                            <i data-feather="book" class="text-blue-600"></i>
+                        </div>
+                        <div class="flex-1">
+                            <div class="flex justify-between items-start flex-col md:flex-row">
+                                <h2 class="text-xl font-bold text-gray-800">Ciclo Formativo de Grado Superior</h2>
+                                <span class="text-blue-600 font-medium">Septiembre 2017 - Actualmente
+                                    <br>
+                                    <span class="ml-2 text-gray-500 text-sm duracion-laboral" data-inicio="Septiembre 2017" data-fin="Actualmente"></span>
+                                </span>
+                            </div>
+                            <p class="text-gray-600 font-medium">IES Palomeras Vallecas</p>
+                            <p class="text-gray-600 mt-2">Estudios superiores de desarrollo de aplicaciones multiplataforma.</p>
+                            <ul class="mt-3 list-disc list-inside text-gray-600 space-y-1">
+                                <li>Java </li>
+                                <li>JavaScript </li>
+                                <li>HTML y CSS </li>
+                                <li>PHP</li>
+                                <li>MySQL</li>
+                                <li>Programacion en android.</li>
+                                <li>Aprendizaje y utilización de Uniti.</li>
+                                <li>Desarrollo de aplicaciones web.</li>
+                                <li>Inglés técnico.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                  <!-- Education Item 3 -->
+                <div class="fade-in opacity-0 transition-opacity duration-500" style="transition-delay: 100ms">
+                    <div class="flex items-start">
+                        <div class="bg-blue-100 p-3 rounded-lg mr-4">
+                            <i data-feather="book" class="text-blue-600"></i>
+                        </div>
+                        <div class="flex-1">
+                            <div class="flex justify-between items-start flex-col md:flex-row">
+                                <h2 class="text-xl font-bold text-gray-800">Educación Secundaria Obligatoria ESO</h2>
+                                <span class="text-blue-600 font-medium">Septiembre 2010 - Junio 2015
+                                    <br>
+                                    <span class="ml-2 text-gray-500 text-sm duracion-laboral" data-inicio="Septiembre 2010" data-fin="Junio 2015"></span>
+                                </span>
+                            </div>
+                            <p class="text-gray-600 font-medium">IES Santa Eugenia</p>
+                            <p class="text-gray-600 mt-2">Estudios de educacion secundaria obligatoria.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications 
+                <div class="fade-in opacity-0 transition-opacity duration-500" style="transition-delay: 200ms">
+                    <div class="flex items-start">
+                        <div class="bg-purple-100 p-3 rounded-lg mr-4">
+                            <i data-feather="certificate" class="text-purple-600"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h2 class="text-xl font-bold text-gray-800 mb-4">Certifications</h2>
+                            <div class="space-y-4">
+                                <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-100">
+                                    <h3 class="font-bold text-gray-800">AWS Certified Developer - Associate</h3>
+                                    <p class="text-gray-600">Amazon Web Services | 2021</p>
+                                </div>
+                                <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-100">
+                                    <h3 class="font-bold text-gray-800">Google Professional Data Engineer</h3>
+                                    <p class="text-gray-600">Google Cloud | 2020</p>
+                                </div>
+                                <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-100">
+                                    <h3 class="font-bold text-gray-800">React Nanodegree</h3>
+                                    <p class="text-gray-600">Udacity | 2019</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+            
+            <div class="mt-12">
+                <h2 class="text-2xl font-bold text-gray-800 mb-6">Cursos y formación</h2>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="bg-gradient-to-r from-indigo-50 to-purple-50 p-4 rounded-lg">
+                        <h3 class="font-bold text-gray-800">Curso Hacking Ético Cisco</h3>
+                        <p class="text-gray-600">Septiembre 2025</p>
+                    </div>
+                    <div class="bg-gradient-to-r from-blue-50 to-green-50 p-4 rounded-lg">
+                        <h3 class="font-bold text-gray-800">Introducción a la ciberseguridad</h3>
+                        <p class="text-gray-600">Septiembre 2025</p>
+                    </div>
+                   <!--  
+                    <div class="bg-gradient-to-r from-pink-50 to-red-50 p-4 rounded-lg">
+                        <h3 class="font-bold text-gray-800">Serverless Architecture</h3>
+                        <p class="text-gray-600">A Cloud Guru | 2020</p>
+                    </div>
+                    <div class="bg-gradient-to-r from-yellow-50 to-orange-50 p-4 rounded-lg">
+                        <h3 class="font-bold text-gray-800">Docker and Kubernetes</h3>
+                        <p class="text-gray-600">Linux Academy | 2019</p>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="experiencia.js"></script>
+
+    <footer class="relative z-10 bg-white/80 backdrop-blur-md py-6">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-600">
+            <p>© 2025 CV Cristi . Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

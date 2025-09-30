@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Cristi</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="scripts.js" defer></script>
+</head>
+<body class="bg-gradient-to-br from-indigo-50 to-blue-100">
+    <div id="vanta-bg" class="fixed inset-0 z-0"></div>
+    
+    <nav class="relative z-10 bg-white/80 backdrop-blur-md shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold text-indigo-600">CV Cristi</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-indigo-600 font-medium hover:text-indigo-800 transition">Home</a>
+                    <a href="experience.html" class="text-gray-600 hover:text-indigo-600 transition">Experience</a>
+                    <a href="education.html" class="text-gray-600 hover:text-indigo-600 transition">Education</a>
+                    <a href="skills.html" class="text-gray-600 hover:text-indigo-600 transition">Skills</a>
+                  <!--   <a href="contact.html" class="text-gray-600 hover:text-indigo-600 transition">Contact</a>-->
+                </div>
+                <button id="mobile-menu-button" class="md:hidden text-gray-600 hover:text-indigo-600">
+                    <i data-feather="menu"></i>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white/90 backdrop-blur-md">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="index.html" class="block px-3 py-2 rounded-md text-base font-medium text-indigo-600">Home</a>
+                <a href="experience.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-indigo-600">Experience</a>
+                <a href="education.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-indigo-600">Education</a>
+                <a href="skills.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-indigo-600">Skills</a>
+             <!--   <a href="contact.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-indigo-600">Contact</a> -->
+            </div>
+        </div>
+    </nav>
+
+    <main class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="bg-white/80 backdrop-blur-lg rounded-xl shadow-xl overflow-hidden">
+            <div class="md:flex">
+                <div class="md:w-1/3 p-8 bg-gradient-to-b from-indigo-500 to-blue-600 text-white">
+                    <div class="text-center">
+                        <img src="img/Imagen de WhatsApp 2025-08-15 a las 15.13.21_0e8c98d1.jpg" alt="Profile" class="mx-auto rounded-full h-40 w-40 object-cover border-4 border-white shadow-lg">
+                        <h1 class="mt-4 text-2xl font-bold">Cristi Ion Agoston</h1>
+                        <p class="text-blue-100">Informática / Ciberseguridad</p>
+                        <div class="mt-6 space-y-4">
+                            <div class="flex items-center">
+                                <i data-feather="map-pin" class="mr-2"></i>
+                                <span>Madrid, España</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i data-feather="mail" class="mr-2"></i>
+                                <span>cristiionagoston@icloud.com</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i data-feather="phone" class="mr-2"></i>
+                                <span>(+34) 641 54 39 54 </span>
+                            </div>
+                            <div class="flex items-center">
+                                    <i data-feather="linkedin" class="mr-2"></i>
+                                    <a href="https://www.linkedin.com/in/cristiionagoston" > LinkedIn</a>
+                            </div>
+                            <div class="flex items-center">
+                                <i data-feather="github" class="mr-2"></i>
+                                 <a href="https://github.com/crysty97" >GitHub</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-2/3 p-8">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-4">Professional Summary</h2>
+                    <p class="text-gray-600 mb-6">Estoy en un proceso de cambio profesional hacia la ciberseguridad, con una fuerte base en entornos tecnológicos. Me apasiona profundamente la seguridad informática, la protección de datos y la gestión de incidentes. He adquirido sólidos conocimientos técnicos a traves de mi formación y sigo aprendiendo a través de proyectos prácticos. Cuento con sólidos conocimientos utilizando herramientas como Kali Linux, Nmap, Metasploit y Wireshark para realizar auditorías de seguridad. También tengo conocimientos en administración de redes y servidores, desarrollo de scripts en Python, y gestión de incidentes de seguridad.</p>
+                    
+                  <!--  <div class="grid grid-cols-2 gap-4 mb-8">
+                        <div class="bg-indigo-50 p-4 rounded-lg">
+                            <h3 class="font-bold text-indigo-700 mb-2">Years Experience</h3>
+                            <p class="text-3xl font-bold text-indigo-600">5+</p>
+                        </div>
+                        <div class="bg-blue-50 p-4 rounded-lg">
+                            <h3 class="font-bold text-blue-700 mb-2">Projects Completed</h3>
+                            <p class="text-3xl font-bold text-blue-600">50+</p>
+                        </div>
+                    </div>-->
+                    
+                    <div class="flex justify-center space-x-4">
+                        <a href="experience.html" class="px-6 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition duration-300">Ver CV completo</a>
+                      <!--  <a href="contact.html" class="px-6 py-2 border border-indigo-600 text-indigo-600 rounded-lg hover:bg-indigo-50 transition duration-300">Contáctame</a> -->
+                    </div>
+                    <!-- Botón dentro de la sección que prefieras, por ejemplo en el resumen -->
+                   
+
+                   
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer class="relative z-10 bg-white/80 backdrop-blur-md py-6">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-600">
+            <p>© 2025 CV Cristi . Todos los derechos reservados.</p>
+        </div>
+    </footer>    
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
